@@ -1,0 +1,64 @@
+{"Default":[
+	{
+		"Counter":"\\LogicalDisk(*)",
+		"Counter_Name":[
+			"\\% Disk Read Time",
+			"\\% Disk Time",
+			"\\% Disk Write Time",
+			"\\Avg. Disk Queue Length",
+			"\\Avg. Disk sec/Read",
+			"\\Avg. Disk sec/Transfer",
+			"\\Avg. Disk sec/Write",
+			"\\Current Disk Queue Length",
+			"\\Disk Bytes/sec",
+			"\\Disk Read Bytes/sec",
+			"\\Disk Transfers/sec",
+			"\\Disk Write Bytes/sec"
+		]
+	},
+	{
+		"Counter":"\\Memory",
+		"Counter_Name":[
+			"\\% Committed Bytes In Use",
+			"\\Available Bytes",
+			"\\Page Faults/sec",
+			"\\Pages/sec"
+		]
+	},
+	{
+		"Counter":"\\Network Interface(*)",
+		"Counter_Name":[
+			"\\Bytes Received/sec",
+			"\\Bytes Total/sec",
+			"\\Output Queue Length",
+			"\\Packets Received/sec",
+			"\\Packets/sec",
+			"\\TCP Active RSC Connections"
+		]
+	},
+	{
+		"Counter":"\\Processor(*)",
+		"Counter_Name":[
+			"\\% Processor Time"
+		]
+	},
+	{
+		"Counter":"\\Processor Information(*)",
+		"Counter_Name":[
+			"\\% DPC Time",
+			"\\% Interrupt Time",
+			"\\% Privileged Time",
+			"\\% Privileged Utility",
+			"\\% Processor Time",
+			"\\% Processor Utility",
+			"\\Interrupts/sec"
+		]
+	},
+	{
+		"Counter":"\\System",
+		"Counter_Name":[
+			"\\Connections Established"
+		]
+	}
+  ]
+}
