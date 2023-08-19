@@ -46,7 +46,7 @@ $file_blg = $file_name + ".blg"
 Write-Host ("Perfmon will create the " + $file_blg + "`n")
 
 # 카운터 목록
-$JSON = Get-Content -Raw -Path ".\counterlist_game.json" | ConvertFrom-Json
+$JSON = Get-Content -Raw -Path ".\counterlist.json" | ConvertFrom-Json
 $JSON_content = $JSON.Default
 
 $CounterList = @()
